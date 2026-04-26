@@ -1,9 +1,15 @@
-pyTelegramBotAPI==4.22.1
-psutil==6.0.0
-pytz==2024.1
-python-dotenv==1.0.1
-requests==2.32.3
+# WHITExTRUSTED Bot Hosting Platform v6.0 - Requirements
 
-# For better logging and error handling (optional but useful)
-setuptools
-wheel
+# Main Telegram Bot Library (this fixes the error)
+pyTelegramBotAPI==4.33.0
+
+# System & Process Management
+psutil==6.1.0
+
+# Timezone Support
+pytz==2024.2
+
+# SQLite is built-in, no need to install
+
+# Optional but recommended for better stability
+requests==2.32.3
