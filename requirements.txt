@@ -1,0 +1,20 @@
+# =============================================================================
+#  STORM HOSTING BOT — requirements.txt
+# =============================================================================
+
+pyTelegramBotAPI>=4.22.0
+requests>=2.32.0
+
+# Optional but recommended for better stability
+python-dotenv>=1.0.0
+psutil>=6.0.0
+
+# For better logging (optional)
+loguru>=0.7.0
+
+# =============================================================================
+#  Notes:
+#  - Core: pyTelegramBotAPI + requests (as mentioned in the script header)
+#  - python-dotenv: Agar .env file se BOT_TOKEN aur ADMIN_IDS load karna ho
+#  - psutil: Future mein process monitoring ke liye useful ho sakta hai
+# =============================================================================
